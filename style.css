@@ -1,0 +1,133 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+
+body{
+    font-family: "DM Sans";
+    background-color:#f9e8e0;
+    color:#3d2c35;
+}
+
+header{
+    background-color:#2d1f1a;
+    color:#f9e8e0;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    gap: 20px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+header h1{
+    color:#dfc060;
+}
+
+h1,h2,h3{
+    font-family: "Cormorant Garamond","DM Sans";
+}
+
+nav ul{
+    display: flex;
+    list-style:none;
+    gap:20px;
+}
+
+nav a{
+    color: white;
+    text-decoration:none;
+}
+
+nav a:hover{
+    color:#e8b4a0;
+}
+
+#heros{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    padding: 50px;
+}
+
+#heros h2{
+    font-size: 30px;
+    font-style: italic;
+}
+
+#heros h3{
+    color: #dfc060 ;
+}
+
+#heros a{
+    background-color:#e8b4a0 ;
+    color:white;
+    border-radius: 12px;
+    text-decoration: none;
+    padding: 12px 28px;
+    margin-top: 20px;
+}
+
+#heros a:hover{
+    filter: brightness(80%);
+}
+
+#coupsdecoeur h2{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#coupsdecoeur div{
+    display: flex ;
+    justify-content: center;
+    gap: 24px;
+    flex-wrap: wrap;/* les cartes passent à la ligne sur petit écran */
+
+
+}
+
+.carte-produit{
+    background-color: white;
+    border-radius: 12px;
+    box-shadow:0 4px 12px rgba(0,0,0,0.1) ;
+    padding: 20px;
+}
+
+.carte-produit img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover /*remplis bien le cadre, mais ne déforme jamais l'image*/
+}
+
+.carte-produit button{
+    background-color:#e8b4a0 ;
+    color:white;
+    border-radius: 12px;
+    padding: 5px;
+    border: none; 
+    cursor: pointer;
+}
+
+.carte-produit button:hover{
+    filter: brightness(80%);
+}
+
+footer{
+    background-color:#2d1f1a;
+    color:#f9e8e0;
+    text-align: center;
+    padding: 30px 20px;
+    margin-top: 40px;
+}
+
+footer a{
+    text-decoration: none;
+    color:#e8b4a0 ;
+}
+
+footer p{
+    margin: 5px;
+}
