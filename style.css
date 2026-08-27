@@ -115,6 +115,52 @@ nav a:hover{
     filter: brightness(80%);
 }
 
+.page-en-developpement {
+    min-height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.page-en-developpement section {
+    max-width: 600px;
+}
+
+.page-en-developpement .petit-titre {
+    color: #dfc060;
+    font-family: "Cormorant Garamond";
+    font-size: 20px;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.page-en-developpement h2 {
+    font-family: "Cormorant Garamond";
+    font-size: 42px;
+    margin-bottom: 20px;
+}
+
+.page-en-developpement section > p:not(.petit-titre) {
+    line-height: 1.7;
+    margin-bottom: 10px;
+}
+
+.page-en-developpement a {
+    display: inline-block;
+    background-color: #e8b4a0;
+    color: white;
+    border-radius: 12px;
+    text-decoration: none;
+    padding: 12px 28px;
+    margin-top: 20px;
+}
+
+.page-en-developpement a:hover {
+    filter: brightness(80%);
+}
+
 footer{
     background-color:#2d1f1a;
     color:#f9e8e0;
